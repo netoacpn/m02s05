@@ -1,0 +1,2 @@
+SELECT * FROM time WHERE sigla = 'KSA';
+SELECT * FROM time WHERE nome = 'Gana';
