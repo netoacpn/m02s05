@@ -1,0 +1,1 @@
+SELECT * FROM time WHERE nome LIKE 'E%' AND sigla LIKE 'U%';
