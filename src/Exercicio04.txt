@@ -10,7 +10,7 @@ UPDATE time SET grupo = 'E' WHERE nome IN ('Espanha', 'Alemanha', 'Japão', 'Cos
 
 UPDATE time SET grupo = 'F' WHERE nome IN ('Bélgica', 'Canadá', 'Marrocos', 'Croácia');
 
-UPDATE time SET grupo = 'G' WHERE nome IN ('Brasil', 'Sérvia', 'Suiça', 'Camarões');
+UPDATE time SET grupo = 'G' WHERE nome IN ('Brasil', 'Sérvia', 'Suíça', 'Camarões');
 
 UPDATE time SET grupo = 'H' WHERE nome IN ('Portugal', 'Gana', 'Uruguai', 'Coréia do Sul');
 
