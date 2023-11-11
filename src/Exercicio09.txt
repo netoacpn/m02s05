@@ -1,0 +1,3 @@
+SELECT DISTINCT grupo FROM time ORDER BY grupo;
+
+SELECT grupo, COUNT (*) FROM time GROUP BY grupo ORDER BY grupo;
