@@ -1,0 +1,39 @@
+CREATE TABLE time(
+	sigla VARCHAR(3) PRIMARY KEY,
+	nome VARCHAR(50) NOT NULL
+);
+
+INSERT INTO time (sigla, nome) VALUES ('QAT', 'Qatar');
+INSERT INTO time (sigla, nome) VALUES ('ECU', 'Equador');
+INSERT INTO time (sigla, nome) VALUES ('SEN', 'Senegal');
+INSERT INTO time (sigla, nome) VALUES ('NED', 'Holanda');
+INSERT INTO time (sigla, nome) VALUES ('ENG', 'Inglaterra');
+INSERT INTO time (sigla, nome) VALUES ('IRN', 'Irã');
+INSERT INTO time (sigla, nome) VALUES ('USA', 'Estados Unidos');
+INSERT INTO time (sigla, nome) VALUES ('WAL', 'País de Gales');
+INSERT INTO time (sigla, nome) VALUES ('ARG', 'Argentina');
+INSERT INTO time (sigla, nome) VALUES ('KSA', 'Arábia Saudita');
+INSERT INTO time (sigla, nome) VALUES ('MEX', 'México');
+INSERT INTO time (sigla, nome) VALUES ('POL', 'Polônia');
+INSERT INTO time (sigla, nome) VALUES ('FRA', 'França');
+INSERT INTO time (sigla, nome) VALUES ('DEN', 'Dinamarca');
+INSERT INTO time (sigla, nome) VALUES ('TUN', 'Tunísia');
+INSERT INTO time (sigla, nome) VALUES ('AUS', 'Austrália');
+INSERT INTO time (sigla, nome) VALUES ('ESP', 'Espanha');
+INSERT INTO time (sigla, nome) VALUES ('GER', 'Alemanha');
+INSERT INTO time (sigla, nome) VALUES ('JPN', 'Japão');
+INSERT INTO time (sigla, nome) VALUES ('CRC', 'Costa Rica');
+INSERT INTO time (sigla, nome) VALUES ('BEL', 'Bélgica');
+INSERT INTO time (sigla, nome) VALUES ('CAN', 'Canadá');
+INSERT INTO time (sigla, nome) VALUES ('MAR', 'Marrocos');
+INSERT INTO time (sigla, nome) VALUES ('CRO', 'Croácia');
+INSERT INTO time (sigla, nome) VALUES ('BRA', 'Brasil');
+INSERT INTO time (sigla, nome) VALUES ('SRB', 'Sérvia');
+INSERT INTO time (sigla, nome) VALUES ('SUI', 'Suíça');
+INSERT INTO time (sigla, nome) VALUES ('CMR', 'Camarões');
+INSERT INTO time (sigla, nome) VALUES ('POR', 'Portugal');
+INSERT INTO time (sigla, nome) VALUES ('GHA', 'Gana');
+INSERT INTO time (sigla, nome) VALUES ('URU', 'Uruguai');
+INSERT INTO time (sigla, nome) VALUES ('KOR', 'Coréia do Sul');
+
+SELECT * FROM time;
