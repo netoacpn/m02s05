@@ -1,0 +1,17 @@
+UPDATE time SET grupo = 'A' WHERE nome IN ('Qatar', 'Equador', 'Senegal', 'Holanda');
+
+UPDATE time SET grupo = 'B' WHERE nome IN ('Inglaterra', 'Irã', 'Estados Unidos', 'País de Gales');
+
+UPDATE time SET grupo = 'C' WHERE nome IN ('Argentina', 'Arábia Saudita', 'México', 'Polônia');
+
+UPDATE time SET grupo = 'D' WHERE nome IN ('França', 'Dinamarca', 'Tunísia', 'Austrália');
+
+UPDATE time SET grupo = 'E' WHERE nome IN ('Espanha', 'Alemanha', 'Japão', 'Costa Rica');
+
+UPDATE time SET grupo = 'F' WHERE nome IN ('Bélgica', 'Canadá', 'Marrocos', 'Croácia');
+
+UPDATE time SET grupo = 'G' WHERE nome IN ('Brasil', 'Sérvia', 'Suiça', 'Camarões');
+
+UPDATE time SET grupo = 'H' WHERE nome IN ('Portugal', 'Gana', 'Uruguai', 'Coréia do Sul');
+
+SELECT * FROM time;
